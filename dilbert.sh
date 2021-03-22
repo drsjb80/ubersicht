@@ -9,3 +9,4 @@ image=$(curl -s https://dilbert.com/strip/"${date}" | \
 	 sed -e 's/^.*data-image="//' -e 's/".*//')
 curl -s -o /tmp/$$ "${image}"
 /usr/local/bin/convert /tmp/$$ -resize 500 dilbert.gif
+rm /tmp/$$

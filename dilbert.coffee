@@ -1,6 +1,6 @@
 refreshFrequency: 21600000
 
-command: "~/bin/dilbert.sh"
+command: '~/Library/"Application\ Support"/Übersicht/widgets/dilbert.sh'
 
 render: (output) -> """
   <img width='500px' src='dilbert.gif'/>

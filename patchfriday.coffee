@@ -1,6 +1,6 @@
 refreshFrequency: 21600000
 
-command: "~/bin/patchfriday.sh"
+command: '~/Library/"Application\ Support"/Übersicht/widgets/patchfriday.sh'
 
 render: (output) -> """
   <img width='500px' src='patchfriday.png'/>
@@ -17,3 +17,4 @@ style: """
   background: rgb(255, 255, 255) transparent;
   background: rgba(255, 255, 255, 0.0);
 """
+refreshFrequency: 21600000
