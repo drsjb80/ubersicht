@@ -17,4 +17,3 @@ style: """
   background: rgb(255, 255, 255) transparent;
   background: rgba(255, 255, 255, 0.0);
 """
-refreshFrequency: 21600000
